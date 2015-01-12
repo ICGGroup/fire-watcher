@@ -1,0 +1,30 @@
+{
+  "name": "fire-watcher",
+  "version": "0.0.0",
+  "description": "A app that runs regularly scheduled tests to check alert status",
+  "main": "fire-watcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICGGroup/fire-watcher.git"
+  },
+  "keywords": [
+    "log",
+    "alerts",
+    "system",
+    "status"
+  ],
+  "author": "ICG Consulting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ICGGroup/fire-watcher/issues"
+  },
+  "homepage": "https://github.com/ICGGroup/fire-watcher",
+  "dependencies": {
+    "mocha": "^2.1.0",
+    "winston": "^0.8.3",
+    "winston-for-slackers": "^0.1.4"
+  }
+}
